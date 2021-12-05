@@ -27,6 +27,12 @@ top:0;
 right:0;
 left:0;
 z-index:-1;
+@media (max-width: 768px) {
+    background-image:url("images/otherback.jpeg");
+        height:100%;
+        background-size:cover;
+        background-position:bottom;
+  }
 `;
 
 const Head = styled.h1`
@@ -37,6 +43,10 @@ color:white;
 padding-top:40px;
 padding-right:32%;
 margin-bottom:2px;
+@media (max-width: 768px) {
+        padding-left:8%;
+        padding-top:20%
+  }
 `;
 const Subhead = styled.h2`
 margin-top:2px;
@@ -44,7 +54,11 @@ font-style:;
 font-size:35px;
 color:white;
 padding-right:23%;
+@media (max-width: 768px) {
 
+        font-size:20px;
+        padding-left:25%;
+  }
 
 `;
 

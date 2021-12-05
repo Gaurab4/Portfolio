@@ -60,8 +60,11 @@ img{
 &:hover{
   
    transform:scale(1.1,1.1);
-
-  
+}
+@media (max-width: 768px) {
+        width:100px;
+        margin-left:-60px;
+  }
    
 `;
 const NavMenu = styled.div`
@@ -101,7 +104,7 @@ a{
 }
 
 @media(max-width:768px){
-    display:none;
+    
 }
 
 
